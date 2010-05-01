@@ -1,0 +1,28 @@
+---
+abstract: 'A Module::Install extension that provides an alternate way to specify dependencies'
+author:
+  - 'Robert Krimen'
+build_requires:
+  ExtUtils::MakeMaker: 6.42
+  File::Spec: 0
+  Test::More: 0
+  YAML::Tiny: 0
+configure_requires:
+  ExtUtils::MakeMaker: 6.42
+distribution_type: module
+generated_by: 'Module::Install version 0.91'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Module-Install-ParseRequires
+no_index:
+  directory:
+    - inc
+    - t
+requires:
+  Module::Install: 0.85
+resources:
+  license: http://dev.perl.org/licenses/
+  repository: http://github.com/robertkrimen/Module-Install-ParseRequires
+version: 0.001
