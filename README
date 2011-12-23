@@ -2,6 +2,9 @@ NAME
     Module::Install::ParseRequires - A Module::Install extension that
     provides an alternate way to specify dependencies
 
+VERSION
+    version 0.002
+
 SYNOPSIS
         # In Makefile.PL
 
@@ -57,16 +60,15 @@ USAGE
   parse_recommends $document
     Same as "parse_requires" but does a "recommend" instead
 
-AUTHOR
-    Robert Krimen
-
-LICENSE
-    Copyright © Robert Krimen
-
-    This module may be used, modified, and distributed under the same terms
-    as Perl itself. Please see the license that came with your Perl
-    distribution for details.
-
 SEE ALSO
     Module::Install
+
+AUTHOR
+    Robert Krimen <robertkrimen@gmail.com>
+
+COPYRIGHT AND LICENSE
+    This software is copyright (c) 2011 by Robert Krimen.
+
+    This is free software; you can redistribute it and/or modify it under
+    the same terms as the Perl 5 programming language system itself.
 
